@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Dr. Dom - About Us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <script src="js/about.js"></script>
+</head>
+<body>
+
+<div id="wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="index.html">Home</a></li>
+                    <li class="active bold"><a href="about.html">About</a></li>
+                    <li class=""><a href="contact.html">Contact</a></li>
+                    <li class=""><a href="register.html">Register</a></li>
+                    <li class=""><a href="links.html">Links</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                       
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="login-form">
+            <div class="col-lg-12">
+                <h2>Our Mission</h2>
+                <p>It is an independent bookshop, mainly filled with antique and second hand books, but has new books too. The building is an old, squat house, built in the 1600s and overlooks the pond in cromford. The bookshop is over three floors and is full of tiny rooms and crevices stacked with books. Books are everywhere, shelves cover every surface apart from a narrow strip of floor used for a walkway. Books are stacked in piles on the floor, the stairs, EVERYWHERE. They actually had to get steel posts to support the ceilings, and they were caving in from the sheer weight of books. There is no rhyme or reason to the layout, and if you have come to find a particular book, good luck with that! </p>
+
+                <p>The whole shop smells of must, paper and ink, and also delicious soup from the cafe on the second floor. 
+
+It’s labrinth type feel will suck you in and I have spent many whole days in there, perusing the books and finding hidden treasures for SO CHEAP..</p>
+            </div>
+            <div class="form-group">
+                <hr/>
+            </div>
+
+            <div class="col-lg-12">
+                <h2>Our Team</h2>
+                
+                <button id="btnShowNames">Show Names</button>
+                <button id="btnHideNames">Hide Names</button>
+                <div id="team-member-names"></div>
+
+                <div class="team-member">
+                    <img id="frankiesmith" class="profile" src="images/frankiesmith.png">
+                    <p class="team-name">Frankie Smith</p>
+                    <p class="team-title" onmouseover="effectOn('frankiesmith')" onmouseout="effectOff('frankiesmith')">Sponsor</p>
+                </div>
+                
+                <div class="team-member">
+                    <img id="donlee" class="profile" src="images/donlee.png" onclick="changeName(this)">
+                    <p class="team-name">Don Lee</p>
+                    <p class="team-title">Sponsor</p>
+                </div>
+
+                <br class="clear">
+
+                <div class="team-member">
+                    <img id="nickgreen" class="profile" src="images/nickgreen.png" onclick="changeName(this)">
+                    <p class="team-name">Nick Brown</p>
+                    <p class="team-title">Team Lead</p>
+                </div>
+
+                <div class="team-member">
+                    <img id="ninjablack" class="profile" src="images/ninjablack.png">
+                    <p class="team-name">Ninja Black</p>
+                    <p class="team-title">Developer</p>
+                </div>
+
+                <br class="clear">
+
+                <div class="team-member">
+                    <img id="mariasmart" class="profile" src="images/mariasmart.png">
+                    <p class="team-name">Maria Smart</p>
+                    <p class="team-title">Tester</p>
+                </div>
+
+                <div class="team-member">
+                    <img id="lucyluck" class="profile" src="images/lucyluck.png">
+                    <p class="team-name">Lucy Luck</p>
+                    <p class="team-title">Quality Assurance (QA)</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+   
+</div>
+
+<script src="js/jquery-3.2.0.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
